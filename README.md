@@ -2,6 +2,11 @@
 
 A K-means clustering analysis of customer data to identify distinct market segments and develop targeted marketing strategies.
 
+- [Source Code](./src/notenook.ipynb)
+- [Report](./doc/report.pdf)
+- [Installation Instruction](#running-instruction)
+
+
 ## Overview
 
 This project analyzes customer data from a supermarket mall membership database to segment customers based on:
@@ -37,17 +42,32 @@ The dataset contains 2000 customer records with the following features:
 
 Identified 5 distinct customer segments with specific demographic and financial characteristics, enabling targeted marketing strategies for each group.
 
-## Files
 
-- `segmentation_analysis.qmd`: Main analysis notebook
-- `data/segmentation_data.csv`: Raw dataset
-- `img/`: Visualization outputs
+# Running Instructions
 
-## Requirements
+1. Create a python cirtual environment: 
 
-- Python 3.8+
-- pandas
-- numpy
-- scikit-learn
-- matplotlib
-- seaborn
+```python3 -m venv .venv ```
+
+2. Activate the environment: 
+
+- On Linux and MacOS:
+
+``` source .venv/bin/activate ```
+
+- On Windows
+
+``` .venv\Scripts\activate ``` 
+
+3. Install the requirments/dependencies: 
+
+``` pip install -r requirements.txt```
+
+4. Run the code.
+
+5. Deactivate when finished 
+
+```shell
+deactivate
+```
+
